@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntrepidDevices</string>
+    <string name="current_user">Current User</string>
+    <string name="current_user_email">Current User\'s Email</string>
+    <string name="owner">Owner</string>
+    <string name="owner_email">Owner\'s Email</string>
+    <string name="submit">Submit</string>
+    <string name="update_error">Error updating device</string>
+    <string name="update_successful">Update successful!</string>
+</resources>
