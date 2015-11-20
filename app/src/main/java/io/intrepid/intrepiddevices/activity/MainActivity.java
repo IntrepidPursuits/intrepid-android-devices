@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
     //temporary - posts to google doc
     private void post(final Device device) {
         RequestQueue queue = Volley.newRequestQueue(this);
-        StringRequest sr = new StringRequest(Request.Method.POST, "https://script.google.com/macros/s/AKfycbw_I_sRVFbOW7C9v49lQladyHXRHyYO4ufWCj8wHHzWotUMuaxG/exec", new com.android.volley.Response.Listener<String>() {
+        StringRequest sr = new StringRequest(Request.Method.POST, "https://script.google.com/macros/s/AKfycbzPrw8CDlduEtZuW3a47Lwnik5otdZF01DTnpsclATFJ176MLE/exec", new com.android.volley.Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 Toast.makeText(MainActivity.this, R.string.update_successful, Toast.LENGTH_SHORT).show();
